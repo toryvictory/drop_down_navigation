@@ -17,6 +17,7 @@
 
 .main-nav-item {
     display: inline-block;
+    position: relative;
 }
 
 .nav-link {
@@ -25,7 +26,7 @@
     color: white;
     text-decoration: none;
     width: 150px;
-    padding: 17px;
+    padding: 17px 0;
 }
 
 .main-nav-link {
@@ -34,6 +35,23 @@
 
 .nav-item:hover {
     background-color: rgb(21,133,91);
+}
+
+.level1-nav-list {
+    position: absolute;
+    top: 100%;
+}
+
+.level1-nav-item {
+    display: none;
+}
+
+.level1-nav-link {
+    display: block;
+}
+
+.main-nav-item:hover .level1-nav-item {
+    display: block;
 }
 
 p {
