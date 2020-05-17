@@ -55,16 +55,17 @@
 }
 
 .level2-nav-list {
+    display: none;
     position: absolute;
     left: 100%;
     top: 52px;
 }
 
-/*.level2-nav-item {*/
-
-/*}*/
-
 .level2-nav-link {
+    display: block;
+}
+
+li.level1-nav-item:hover > .level2-nav-list{
     display: block;
 }
 
