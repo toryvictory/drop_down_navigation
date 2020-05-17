@@ -11,8 +11,8 @@
 }
 
 .nav-item {
-    background-color: rgb(22,159,107);
-    border: 1px solid rgb(21,133,91);
+    background-color: rgb(22, 159, 107);
+    border: 1px solid rgb(21, 133, 91);
 }
 
 .main-nav-item {
@@ -34,7 +34,7 @@
 }
 
 .nav-item:hover {
-    background-color: rgb(21,133,91);
+    background-color: rgb(21, 133, 91);
 }
 
 .level1-nav-list {
@@ -65,7 +65,7 @@
     display: block;
 }
 
-li.level1-nav-item:hover > .level2-nav-list{
+li.level1-nav-item:hover > .level2-nav-list {
     display: block;
 }
 
