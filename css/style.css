@@ -32,6 +32,10 @@
     display: inline-block;
 }
 
+.nav-item:hover {
+    background-color: rgb(21,133,91);
+}
+
 p {
     margin: 3em 1.5em;
     line-height: 1.5em;
