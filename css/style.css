@@ -54,6 +54,20 @@
     display: block;
 }
 
+.level2-nav-list {
+    position: absolute;
+    left: 100%;
+    top: 52px;
+}
+
+/*.level2-nav-item {*/
+
+/*}*/
+
+.level2-nav-link {
+    display: block;
+}
+
 p {
     margin: 3em 1.5em;
     line-height: 1.5em;
